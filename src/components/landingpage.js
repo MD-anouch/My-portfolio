@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import profile from '../image/profile.jpg'
 
 
 class Landing extends Component {
@@ -24,24 +25,29 @@ class Landing extends Component {
         <div className="social-links">
 
           {/* LinkedIn */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          <a href="https://www.linkedin.com/in/mouad-a-b66b1aa5/" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-linkedin-square" aria-hidden="true" />
           </a>
 
           {/* Github */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          <a href="https://github.com/MD-anouch?tab=repositories" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-github-square" aria-hidden="true" />
           </a>
 
           {/* Freecodecamp */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-free-code-camp" aria-hidden="true" />
+          <a href='https://drive.google.com/open?id=1GBKBghIEQ01u1BJKJDd5oAh8fbO9iHXs' target="_blank" rel="noopener noreferrer" >
+            {/* <i class="fa fa-file" aria-hidden="true"/> */}
+            <img
+              src="https://cdn0.iconfinder.com/data/icons/job-resume-1/665/7-_Download_Resume-512.png"
+              alt="avatar"
+              className="cv-img"
+              />
           </a>
 
           {/* Youtube */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          {/* <a href="http://google.com" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-youtube-square" aria-hidden="true" />
-          </a>
+          </a> */}
 
         </div>
             </div>

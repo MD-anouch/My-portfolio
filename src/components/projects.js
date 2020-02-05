@@ -15,14 +15,14 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >E-commerce</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              An e-commerce site created using react and laravel.The user can buy product and pay using paypal.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button href='https://github.com/MD-anouch/e-commerce' target="_blank" rel="noopener noreferrer" colored>GitHub</Button>
+              {/* <Button colored>CodePen</Button> */}
+              {/* <Button colored>Live Demo</Button> */}
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -30,7 +30,7 @@ class Projects extends Component {
           </Card>
 
           {/* Project 2 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          {/* <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -43,10 +43,10 @@ class Projects extends Component {
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
-          </Card>
+          </Card> */}
 
           {/* Project 3 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          {/* <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -59,7 +59,7 @@ class Projects extends Component {
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
-          </Card>
+          </Card> */}
         </div>
 
 
@@ -70,14 +70,13 @@ class Projects extends Component {
           {/* <h1>This is Laravel</h1> */}
            {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Insatgram clone</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.pinimg.com/originals/d9/c4/52/d9c452c5a1da77e46e5a04987c856578.png) center / cover'}} >Insatgram clone</CardTitle>
             <CardText>
               A project created with Vuejs and Laravel where you can post and follow other users.
             </CardText>
             <CardActions border>
-             <a href='https://github.com/MD-anouch/Instapost' target="_blank" rel="noopener noreferrer"><Button colored>GitHub</Button></a>  
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+             <Button href='https://github.com/MD-anouch/Instapost' target="_blank" rel="noopener noreferrer" colored>GitHub</Button>
+              
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -104,7 +103,7 @@ class Projects extends Component {
     return(
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>Reac jst</Tab>
+          <Tab>Reac js</Tab>
           <Tab>Laravel</Tab>
           <Tab>VueJS</Tab>
           {/* <Tab>MongoDB</Tab> */}
