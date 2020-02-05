@@ -131,3 +131,9 @@
 .cv:hover{
   color: #fd1d1d;
 }
+
+.social-media{
+  color: rgba(20, 68, 228, 0.877) !important;
+  font-weight: bolder !important;
+  font-size: 1.1em !important;
+} 

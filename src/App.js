@@ -23,6 +23,12 @@ class App extends Component {
               {/* <Link to="/aboutme">About Me</Link> */}
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
+              <a className='social-media' href="https://github.com/MD-anouch?tab=repositories" rel="noopener noreferrer" target="_blank">
+               <i className="fa fa-github-square" aria-hidden="true"> GIT</i>
+              </a>
+              <a className='social-media' href="https://www.linkedin.com/in/mouad-a-b66b1aa5/" rel="noopener noreferrer" target="_blank">
+                <i className="fa fa-linkedin-square" aria-hidden="true"> Linkedin</i>
+              </a>    
             </Navigation>
         </Drawer>
         <Content>
