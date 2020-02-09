@@ -124,12 +124,10 @@
   width: 5em;
   padding: 8px;
 }
-.cv{
-  color:white;
-  text-decoration: none;
-}
-.cv:hover{
-  color: #fd1d1d;
+
+#cvbutt:hover{
+  background: white !important;
+  color: black !important;
 }
 
 .social-media{

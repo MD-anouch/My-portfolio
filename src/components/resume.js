@@ -37,9 +37,11 @@ class Resume extends Component {
             <a className='mail' href='https://my-portfolio-mouad.netlify.com' target="_blank" rel="noopener noreferrer">https://my-portfolio-mouad.netlify.com</a>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             {/* <FontAwesomeIcon icon="download" /> */}
-            <button type="button" className="btn btn-dark">
-              <a href='https://drive.google.com/open?id=1GBKBghIEQ01u1BJKJDd5oAh8fbO9iHXs' target="_blank" rel="noopener noreferrer" className='cv'>  <i className="fa fa-download"/> Download my cv</a>
+            <a href='https://drive.google.com/open?id=1GBKBghIEQ01u1BJKJDd5oAh8fbO9iHXs' target="_blank" rel="noopener noreferrer" >
+            <button type="button" id='cvbutt' className="btn btn-dark">
+                <i className="fa fa-download"/> Download my cv
             </button>
+            </a>
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
