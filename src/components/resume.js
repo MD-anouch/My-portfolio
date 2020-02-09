@@ -29,7 +29,7 @@ class Resume extends Component {
             <h5>Address</h5>
             <p>Bd sebta Residence Al Alia G8 APP8, Mohammedia </p>
             <h5>Phone</h5>
-            <p>06.87.65.40.51</p>
+            <a className='mail' href='tel://+212 687654051'>06 87 65 40 51</a>
             <h5>Email</h5>
             {/* <p>mou-998@hotmail.fr</p> */}
             <a className='mail' href='mailto:mouad.anouch7@gmail.com'>mouad.anouch7@gmail.com</a>
