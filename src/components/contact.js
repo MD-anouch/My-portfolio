@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Form from './Form'
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 
 
@@ -20,7 +21,7 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Contact Me</h2>
             <hr/>
-
+            {/* <section> */}
             <div className="contact-list">
               <List>
                 <ListItem>
@@ -43,17 +44,15 @@ class Contact extends Component {
                    <a className='mail' href='mailto:mouad.anouch7@gmail.com'>mouad.anouch7@gmail.com</a>
                   </ListItemContent>
                 </ListItem>
-
                 {/* <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-skype" aria-hidden="true"/>
                     MySkypeID
                   </ListItemContent>
                 </ListItem> */}
-
-
               </List>
             </div>
+            {/* </section> */}
           </Cell>
         </Grid>
       </div>

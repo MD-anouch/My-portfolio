@@ -15,7 +15,7 @@ class App extends Component {
                 {/* <Link to="/aboutme">About Me</Link> */}
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
-                <Link to="/form">Form</Link>
+                <Link to="/form">Contact Form</Link>
 
             </Navigation>
         </Header>
@@ -25,7 +25,7 @@ class App extends Component {
               {/* <Link to="/aboutme">About Me</Link> */}
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
-              <Link to="/form">Form</Link>
+              <Link to="/form">Contact Form</Link>
               <a className='social-media' href="https://github.com/MD-anouch?tab=repositories" rel="noopener noreferrer" target="_blank">
                <i className="fa fa-github-square" aria-hidden="true"> GIT</i>
               </a>
