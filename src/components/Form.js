@@ -4,7 +4,7 @@ export default class Form extends Component {
     render() {
         return (
             <div>
-                  <form name="contact" method="post" name='email-form' netlify="true">
+                  <form name="contact" method="post" >
           <p>
             <label>Your Name: <input type="text" name="name"/></label>
           </p>
