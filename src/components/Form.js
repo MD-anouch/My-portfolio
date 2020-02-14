@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Form extends Component {
     render() {
         return (
-            <div  class=" container py-5" >
+            <div  class=" container py-5 mt-5" >
         <form method="post" class="form-group w-50 m-auto">
           <input type="hidden" name="form-name" value="contact" />
           <p>
