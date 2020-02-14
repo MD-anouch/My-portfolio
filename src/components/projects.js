@@ -108,7 +108,7 @@ class Projects extends Component {
     return(
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>Reac js</Tab>
+          <Tab>React js</Tab>
           <Tab>Laravel</Tab>
           <Tab>VueJS</Tab>
           {/* <Tab>MongoDB</Tab> */}
