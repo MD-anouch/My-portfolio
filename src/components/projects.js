@@ -20,7 +20,7 @@ class Projects extends Component {
               An e-commerce site created using react and laravel.The user can buy product and pay using paypal.
             </CardText>
             <CardActions border>
-              <Button href='https://github.com/MD-anouch/e-commerce' target="_blank" rel="noopener noreferrer" colored>GitHub</Button>
+              <Button href='https://github.com/MD-anouch/E-market-react' target="_blank" rel="noopener noreferrer" colored>GitHub</Button>
               {/* <Button colored>CodePen</Button> */}
               {/* <Button colored>Live Demo</Button> */}
             </CardActions>
