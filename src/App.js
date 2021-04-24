@@ -30,7 +30,7 @@ class App extends Component {
                <i className="fa fa-github-square" aria-hidden="true"> GIT</i>
               </a>
               <a className='social-media' href="https://www.linkedin.com/in/mouad-anouch-54212620b/" rel="noopener noreferrer" target="_blank">
-                <i className="fa fa-linkedin-square" aria-hidden="true"> Linkedin</i>
+                <i className="fa fa-linkedin-square" aria-hidden="true"> LinkedIn</i>
               </a>    
             </Navigation>
         </Drawer>
